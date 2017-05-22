@@ -1,0 +1,6 @@
+meal = input()
+tip = input()
+tax = input()
+tip = float(meal) * (float(tip) / 100)
+tax = float(meal) * (float(tax) / 100)
+print("The total meal cost is",round(float(meal) + tip + tax), "dollars.")
